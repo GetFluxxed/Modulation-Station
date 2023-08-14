@@ -1,0 +1,23 @@
+{
+  "name": "modulation-station",
+  "version": "1.0.0",
+  "description": "Modulation Station is a website designed to give car enthusiasts and casuals alike the ability to truly explore the options that are available for customizing their cars. Through Modulation Station, the user is able to inpout the car of their choosing, and browse hundreds and hundreds of compatible options for both tuning and aesthetic purposes. From body kits to engine mods, you can find all compatible parts for you vehicle right at the touch of a few buttons. Utilize our incredible filter systems, to really ensure that what you are looking at is right for your vehicle. All components and kits come with a link to purchase them from a licensed retailer or carrier, as well as real-time accurate price information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GetFluxxed/Modulation-Station.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GetFluxxed/Modulation-Station/issues"
+  },
+  "homepage": "https://github.com/GetFluxxed/Modulation-Station#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
