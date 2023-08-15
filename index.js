@@ -1,14 +1,20 @@
 const express = require("express");
 const app = express();
+const cors = require('cors');
 const PORT = 3000;
 
 
+app.use(cors());
+
+// URL localhost:3000/
+
 // GET /
 app.get('/', function (req, res) {
-    res.send('home page')
+    res.send('This is the Landing Page for the website')
 });
-// URL localhost:3000/
-// GET /pick
+
+// Controllers
+app.use('/list', require('./controllers/list'))
 
 
 app.listen(PORT, function () {
